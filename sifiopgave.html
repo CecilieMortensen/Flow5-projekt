@@ -1,0 +1,259 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TheMovieZone</title>
+    <!-- link til bootstrap stylesheet -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- link til bootstrap bibliotek iconer -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+   <!-- mit eget stylesheet -->
+    <link rel="stylesheet" href="sifiopgave.css">
+</head>
+<body>
+    
+  <header> <b>TheMovieZone</b></header>
+
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid justify-content-center">
+        <ul class="nav nav-pills">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Filmgenre</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Comedy</a></li>
+                <li><a class="dropdown-item" href="#">Drama</a></li>
+                <li><a class="dropdown-item" href="#">Musical</a></li>
+                <li><a class="dropdown-item active sifi" aria-current="page" href="#">Science Fiction</a></li>
+                <li><a class="dropdown-item" href="#">Thriller</a></li>
+              </ul>
+            </li>
+        </ul>
+
+      <div class="navbar menu justify-content-center" id="navbarNav">
+        <ul class="nav justify-content-center">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Action</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Comedy</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Drama</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Musical</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active sifi" aria-current="page" href="#">Science Fiction</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Thriller</a>
+              </li>
+          </ul>
+      </div>
+    </div>
+</nav>
+
+<h1>Science Fiction</h1>
+
+<div id="carouselExampleCaptions" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="2001-space-odyssey.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5> <b>WATCH SPACE ODYSSEY</b></h5>
+          <p>Some representative placeholder content for the first slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="alien.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5><b>WATCH ALIEN</b></h5>
+          <p>Some representative placeholder content for the second slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="blade-runner.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5><b>WATCH BLADE RUNNER</b></h5>
+          <p>Some representative placeholder content for the third slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="empire-strikes-back.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5><b>WATCH THE EMPIRE STRIKES BACK</b></h5>
+          <p>Some representative placeholder content for the third slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="interstellar.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5><b>WATCH THE INTERSTELLAR</b></h5>
+          <p>Some representative placeholder content for the third slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="matrix.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5><b>WATCH MATRIX</b></h5>
+          <p>Some representative placeholder content for the third slide.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+<h3>Popular Science Fiction Movies</h3>
+
+<div class="container-fluid">   
+    <div class="row">
+        <div class="col-sm-12 col-md-6 col-lg-4">
+          <div class="card ">
+            <img src="images/2001-space-odyssey.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Space Odyssey</h5>
+              <p>1968</p>
+              <p class="card-text">When a large black monolith is found beneath the surface of the moon, the reaction immediately is that it was intentionally buried.</p>
+              <a href="#" class="btn btn-primary knapbaggrund">Læs Mere</a>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-4">
+          <div class="card">
+            <img src="images/alien.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Alien</h5>
+              <p>1979</p>
+              <p class="card-text">When commercial towing vehicle Nostromo, heading back to Earth, intercepts an SoS signal from a nearby planet, the crew are under obligation to investigate. </p>
+                <div class="knapogstjerner">
+                    <a href="#" class="btn btn-primary knapbaggrund">Læs Mere</a>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                    </div> 
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-4">
+            <div class="card">
+                <img src="images/blade-runner.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Blade Runner</h5>
+                <p>1982</p>
+                <p class="card-text">In a cyberpunk vision of the future, man has developed the technology to create replicants, human clones used to serve in the colonies outside Earth but with fixed lifespans</p>
+                <a href="#" class="btn btn-primary knapbaggrund">Læs Mere</a>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4">
+            <div class="card">
+                <img src="images/empire-strikes-back.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">The Empire Strikes Back</h5>
+                <p>1980</p>
+                <p class="card-text">After the Rebels are overpowered by the Empire, Luke Skywalker begins his Jedi training with Yoda, while his friends are pursued across the galaxy by Darth Vader and bounty hunter Boba Fett.</p>
+                <a href="#" class="btn btn-primary knapbaggrund">Læs Mere</a>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4">
+            <div class="card">
+                <img src="images/matrix.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Matrix</h5>
+                <p>1999</p>
+                <p class="card-text">When a beautiful stranger leads computer hacker Neo to a forbidding underworld, he discovers the shocking truth--the life he knows is the elaborate deception of an evil cyber-intelligence.</p>
+                <a href="#" class="btn btn-primary knapbaggrund">Læs Mere</a>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4">
+            <div class="card">
+                <img src="images/interstellar.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Interstellar</h5>
+                <p>2014</p>
+                <p class="card-text">When Earth becomes uninhabitable in the future, a farmer and ex-NASA pilot, Joseph Cooper, is tasked to pilot a spacecraft, along with a team of researchers, to find a new planet for humans..</p>
+                <a href="#" class="btn btn-primary knapbaggrund">Læs Mere</a>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+              </div>
+            </div>
+          </div>
+
+      </div>
+    </div>
+
+
+<div class="sifitext">
+    <p>Science fiction film is a film genre that uses science fiction: <br>
+        <br>
+        speculative, science-based depictions of phenomena that are not necessarily accepted by mainstream science, such as extraterrestrial life forms, alien worlds, extrasensory perception, and time travel, often along with futuristic elements such as spacecraft, robots, or other technologies. <br>
+        <br>
+        Science fiction films have often been used to focus on political or social issues, and to explore philosophical issues like the human condition. In many cases, tropes derived from written science fiction may be used by filmmakers ignorant of or at best indifferent to the standards of scientific plausibility and plot logic to which written science fiction is traditionally held. <br>
+        <br>
+        The genre has existed since the early years of silent cinema, when Georges Melies' A Trip to the Moon (1902) amazed audiences with its trick photography effects. The next major example in the genre was the 1927 film Metropolis. <br>
+        <br>
+        From the 1930s to the 1950s, the genre consisted mainly of low-budget B-movies. After Stanley Kubrick's 1968 landmark 2001: A Space Odyssey, the science fiction film genre was taken more seriously. In the late 1970s, big-budget science fiction films filled with special effects became popular with audiences after the success of Star Wars and paved the way for the blockbuster hits of subsequent. <br>
+    </p>
+</div>
+
+
+
+
+
+
+
+    <footer>
+        <p>© 2024 The Movie Zone</p>
+        <i class="bi bi-instagram"></i>
+    </footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

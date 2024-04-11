@@ -1,0 +1,115 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(ufo-1265186_1280.jpg);
+}
+
+header{
+    text-align: center;
+    color: #00008b;
+}
+
+footer{
+    background-color: #00008b;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px;
+}
+
+header{
+    font-size: 40px;
+    margin: 15px;
+}
+
+.nav-link{
+    color: #00002b;
+}
+
+.dropdown-item{
+    color: #00008b;
+    background-color: #b1c8fa;
+}
+
+.navbar, .card{
+    background-image: linear-gradient(to bottom right, #010154, #0d0de6);
+    border: 1px solid linear-gradient(to bottom right, #010154, #0d0de6);
+}
+
+.card{
+    height: 475px;
+    margin: 15px;
+    padding: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.knapogstjerner{
+    
+}
+
+.card-title, .card-text, p{
+    color: #b1c8fa;
+}
+
+.sifi{
+    border-bottom: 2px solid #00008b;
+}
+
+.sifitext{
+    color: #b1c8fa;
+    text-align: left;
+    margin: 30px;
+    padding: 20px;
+}
+
+h1, h3{
+    color: #00008b;
+    text-align: center;
+    margin: 20px;
+    letter-spacing: -2px;
+}
+
+
+img{
+    width: 100%;
+}
+
+.menu{
+    display: none;
+}
+
+.checked{
+    color: #ffa500;
+}
+
+.knapbaggrund{
+    background-color: #00008b;
+}
+
+
+@media screen and (min-width:700px){
+    .dropdown{
+        display: none;
+    }
+    .menu{
+        display: block;
+    }
+
+    h1, h3{
+        color: #3838f4;
+        text-align: center;
+        margin: 20px;
+        letter-spacing: -2px;
+    }
+
+    h1{
+        font-size: 60px;
+        letter-spacing: 2px;
+    }
+
+
+}
